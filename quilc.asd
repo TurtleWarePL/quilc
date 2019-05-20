@@ -29,6 +29,7 @@
                       (funcall compile)))
   :serial t
   :components ((:file "package")
+               (:file "utils")
                (:file "versions")
                #+sbcl
                (:file "impl/sbcl")
